@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+
+    text-align: center;
+}
+.grid{
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    /* border: 1px solid; */
+    user-select: none;
+}
+.card{
+    border: 1px pink solid;
+    width: 5em;
+    height: 5em;
+    margin: 1px;
+    transition-duration: 500ms;
+    padding: 5px;
+}
+img{
+    user-select: none;
+    width: 80%;
+    margin: auto;
+}
